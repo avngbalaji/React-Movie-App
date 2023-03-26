@@ -4,7 +4,7 @@ import './App.css';
 function App() {
 
   let searchMovie = useRef();
-  let api = "http://www.omdbapi.com/?apikey=1d4cd93e&t=";
+  let api = "https://www.omdbapi.com/?apikey=1d4cd93e&t=";
 
   let [title, setTitle] = useState('');
   let [year, setYear] = useState('');
